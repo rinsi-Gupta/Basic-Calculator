@@ -20,7 +20,6 @@ buttons.forEach(btn => {
 
             else
                 screen.innerText = screenText + btn.innerText;
-
         } 
         catch (error) {
             screen.innerText = 'Invalid Operation!'
